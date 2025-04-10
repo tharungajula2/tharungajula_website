@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  // No redirects needed since homepage is at the root path
+  // Optimize image handling
   images: {
     domains: ['images.unsplash.com'], // Add any external image domains you're using
     formats: ['image/avif', 'image/webp'],
