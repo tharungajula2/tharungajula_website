@@ -159,7 +159,7 @@ export default function Skills() {
               className="mt-16 text-center"
             >
               <p className="text-lg text-gray-300 italic">
-                "Transforming data into insights, technology into solutions, and knowledge into impact."
+                &quot;Transforming data into insights, technology into solutions, and knowledge into impact.&quot;
               </p>
             </motion.div>
           </motion.div>

@@ -24,7 +24,7 @@ export default function About() {
             
             <div className="prose prose-lg max-w-none text-gray-300 prose-headings:text-white prose-strong:text-white">
               <p className="mb-6">
-                For years, I explored multiple fields—<strong>banking, technology, AI, and data science</strong>—seeking my true calling. But now, at 30, my vision is crystal clear: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 font-medium">Health, fitness, and human optimization are my life's mission.</span>
+                For years, I explored multiple fields—<strong>banking, technology, AI, and data science</strong>—seeking my true calling. But now, at 30, my vision is crystal clear: <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 font-medium">Health, fitness, and human optimization are my life&apos;s mission.</span>
               </p>
               
               <p className="mb-6">
@@ -32,7 +32,7 @@ export default function About() {
               </p>
 
               <p className="mb-6">
-                With a <strong>background in AI, Deep Learning, Data Analytics, and Automation</strong>, I aim to <strong>merge technology with fitness</strong> to create <strong>intelligent, scalable health solutions</strong>. Whether it's <strong>fitness-tech, AI-driven coaching, or content creation</strong>, my mission is to <strong>help people optimize their health through science-backed, data-driven approaches</strong>.
+                With a <strong>background in AI, Deep Learning, Data Analytics, and Automation</strong>, I aim to <strong>merge technology with fitness</strong> to create <strong>intelligent, scalable health solutions</strong>. Whether it&apos;s <strong>fitness-tech, AI-driven coaching, or content creation</strong>, my mission is to <strong>help people optimize their health through science-backed, data-driven approaches</strong>.
               </p>
               
               <motion.h2 

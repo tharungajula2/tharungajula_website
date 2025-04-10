@@ -1,10 +1,9 @@
 'use client';
 
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 // Testimonials data
-const testimonials = [
+/* const testimonials = [
   {
     quote: "Tharun's analytical approach to fitness and his ability to explain complex concepts in simple terms has been incredibly valuable for my own transformation journey.",
     name: "Alex Chen",
@@ -17,7 +16,7 @@ const testimonials = [
     title: "Personal Trainer & Nutrition Coach",
     avatar: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80"
   }
-];
+]; */
 
 export default function Home() {
   return (
@@ -40,7 +39,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white mb-6"
+            className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white mb-6"
           >
             Tharun Kumar Gajula
           </motion.h1>
@@ -49,15 +48,24 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="text-xl md:text-2xl text-gray-300 mb-8 font-light"
+            className="text-xl md:text-2xl text-gray-300 mb-4 font-light"
           >
-            Data-Driven Health & Fitness Transformation | AI & Fitness-Tech Enthusiast
+            Digital, Analytics and AI Solutions Consultant
           </motion.p>
           
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+            className="text-lg text-gray-400 mb-4 font-light"
+          >
+            AI & Fitness-Tech Enthusiast | Absolute Learner & Problem Solver
+          </motion.p>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
             className="text-lg text-gray-400 mb-12 font-light"
           >
             Based in Anantapur, India
@@ -112,7 +120,7 @@ export default function Home() {
             className="mt-10 text-left bg-gradient-to-br from-gray-900/80 to-black/90 backdrop-blur-sm border border-blue-900/20 rounded-xl p-8 shadow-xl"
           >
             <p className="text-gray-300 mb-4">
-              For years, I explored multiple fields—<strong className="text-white">banking, technology, AI, and data science</strong>—seeking my true calling. But now, at 30, my vision is crystal clear: <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Health, fitness, and human optimization are my life's mission.</strong>
+              For years, I explored multiple fields—<strong className="text-white">banking, technology, AI, and data science</strong>—seeking my true calling. But now, at 30, my vision is crystal clear: <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Health, fitness, and human optimization are my life&apos;s mission.</strong>
             </p>
             <p className="text-gray-300 mb-4">
               I am on a <strong className="text-white">personal transformation journey</strong> to become the <strong className="text-white">strongest, healthiest, and most disciplined version of myself</strong> in the next <strong className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">300 days</strong>. This is not just about building my body but <strong className="text-white">mastering the science of fitness</strong>.

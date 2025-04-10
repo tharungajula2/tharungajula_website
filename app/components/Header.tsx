@@ -36,7 +36,7 @@ export default function Header() {
                   href={link.path}
                   className="relative py-1"
                 >
-                  <span className={`text-sm ${isActive ? 'text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 font-medium' : 'text-gray-300 hover:text-white'} transition-colors duration-300`}>
+                  <span className={`text-base font-medium ${isActive ? 'text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 font-semibold' : 'text-gray-300 hover:text-white'} transition-colors duration-300`}>
                     {link.label}
                   </span>
                   {isActive && (
