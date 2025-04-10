@@ -17,6 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Tharun Kumar Gajula | Personal Portfolio",
   description: "Personal website of Tharun Kumar Gajula, showcasing professional experience, projects, and skills.",
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
 };
 
 export default function RootLayout({

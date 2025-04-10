@@ -25,7 +25,7 @@ export default function Home() {
       <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-950/20 via-gray-950/10 to-black pointer-events-none"></div>
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden pt-24 md:pt-32">
         {/* Section-specific subtle gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 via-transparent to-transparent mix-blend-overlay"></div>
         
@@ -33,13 +33,13 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="relative z-10 max-w-3xl mx-auto text-center"
+          className="relative z-10 max-w-3xl mx-auto text-center mt-24 md:mt-8"
         >
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white mb-8"
           >
             Tharun Kumar Gajula
           </motion.h1>
@@ -48,7 +48,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="text-xl md:text-2xl text-gray-300 mb-4 font-light"
+            className="text-lg md:text-xl text-gray-300 mb-4 font-light"
           >
             Digital, Analytics and AI Solutions Consultant
           </motion.p>
